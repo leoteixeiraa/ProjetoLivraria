@@ -5,9 +5,11 @@
 
 {% block conteudo%}
 	<h3>Cadastro de Livros</h3>
-	<p><a href="">Novo Livro </a></p>
+	<p><a href="{% url 'cadastra_livro' %}">Novo Livro </a></p>
 	
 	<h3>Lista de Livros</h3>
-	<p><a href="">Listar Livros </a></p>
+	<p><a href="{% url 'lista_livros' %}">Listar Livros </a></p>
 	
 	{% endblock %}
+	
+	
