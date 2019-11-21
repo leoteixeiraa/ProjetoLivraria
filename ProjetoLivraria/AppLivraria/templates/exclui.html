@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Exclusão de livro {% endblock %}
+
+{% block conteudo %}
+	<h3>Exclusão de Livro</h3>
+	<p>Deseja excluir o livro ? <br>{{livro.titulo}}<br> ? </p>
+	
+	<form method="post">
+	{% csrf_token %}
+	
+	<p><a href="{% url 'lista_livros' %}">Cancelar</a></p>
+	
+	<button>EXCLUIR</button>
+	
+</form>
+{% endblock %}

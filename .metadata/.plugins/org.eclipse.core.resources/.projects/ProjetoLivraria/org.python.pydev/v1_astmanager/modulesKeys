@@ -1,0 +1,15 @@
+MODULES_MANAGER_V2
+AppLivraria.__init__|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/__init__.py
+AppLivraria.admin|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/admin.py
+AppLivraria.apps|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/apps.py
+AppLivraria.migrations.0001_initial|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/migrations/0001_initial.py
+AppLivraria.migrations.__init__|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/migrations/__init__.py
+AppLivraria.models|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/models.py
+AppLivraria.tests|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/tests.py
+AppLivraria.urls|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/urls.py
+AppLivraria.views|/home/aluno/eclipse-workspace/ProjetoLivraria/AppLivraria/views.py
+ProjetoLivraria.__init__|/home/aluno/eclipse-workspace/ProjetoLivraria/ProjetoLivraria/__init__.py
+ProjetoLivraria.settings|/home/aluno/eclipse-workspace/ProjetoLivraria/ProjetoLivraria/settings.py
+ProjetoLivraria.urls|/home/aluno/eclipse-workspace/ProjetoLivraria/ProjetoLivraria/urls.py
+ProjetoLivraria.wsgi|/home/aluno/eclipse-workspace/ProjetoLivraria/ProjetoLivraria/wsgi.py
+manage|/home/aluno/eclipse-workspace/ProjetoLivraria/manage.py

@@ -1,0 +1,15 @@
+INSTUPblog.blog.views
+/home/aluno/eclipse-workspace/ProjetoLivraria/blog/blog/views.py
+INFOS:&&2|1|2|0|3|10|5&&2|4|2|0|3|14|5&&2|5|2|0|3|19|5&&2|6|2|0|3|35|5&&2|7|2|0|3|51|5&&2|8|2|0|3|56|5&&2|9|2|0|3|62|5&&2|10|2|0|3|68|5&&2|11|2|0|3|84|5&&2|12|2|0|3|90|5
+post_list=1
+post_draft_list=7
+post_remove=9
+post_new=5
+add_comment_to_post=10
+/home/aluno/eclipse-workspace/ProjetoLivraria/blog/blog/views.py=3
+comment_approve=12
+blog.blog.views=2
+post_edit=6
+post_detail=4
+comment_remove=11
+post_publish=8

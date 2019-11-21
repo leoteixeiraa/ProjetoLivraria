@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	{% load static %}
+	<head>
+		<meta charset="utf-8">
+		<title>
+			{% block title %}Sistema Livraria{% endblock %}
+		</title>
+		<link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+	</head>
+	
+	<body>
+		<h1>Sistema Livraria</h1>
+		<p><a href="{% url 'index' %}">Voltar para página inicial</a></p>
+	
+		{% block conteudo %}{% endblock %}
+		
+		<p>Copyright 2019 - Versão beta 0.01</p>	
+	</body>
+</html>

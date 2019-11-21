@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Lista de Livros{% endblock %}
+
+{% block conteudo %}
+	<h3>Lista de livros</h3>
+	
+	<table>
+		<tr>
+			<th>Titulo</th>
+			<th>Autor</th>
+			<th>Editora</th>
+			<th>Páginas</th>
+			<th>Preço</th>	
+			<th>Açoes</th>	
+		</tr>	
+		
+		{% for livro in livros %}
+		<tr>
+			<td>{{ livro.titulo }}</td>
+			<td>{{ livro.autor }}</td>
+			<td>{{ livro.editora }}</td>
+			<td>{{ livro.nro_paginas }}</td>
+			<td>{{ livro.preco }}</td>
+			<td>
+				<a href="{% url 'atualiza_livro' pk=livro.id %}">Atualiza Livro</a>
+				<a href="{% url 'deleta_livro' pk=livro.id %}">Excluir</a>
+		</tr>	
+		{% endfor %}	
+	
+	</table>
+{% endblock %}

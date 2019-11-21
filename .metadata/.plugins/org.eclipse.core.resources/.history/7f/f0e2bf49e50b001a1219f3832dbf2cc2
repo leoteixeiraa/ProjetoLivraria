@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Atualização de Livro{% endblock %}
+
+{% block conteudo %}
+	<h3>Atualização de dados do livro</h3>
+	
+	<form method="post">
+		{% csrf_token %}
+	</form>

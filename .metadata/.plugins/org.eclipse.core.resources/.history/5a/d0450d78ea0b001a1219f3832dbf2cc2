@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Atualização de Livro{% endblock %}
+
+{% block conteudo %}
+	<h3>Atualização de dados do livro</h3>
+	
+	<form method="post">
+		{% csrf_token %}
+		
+		<label>Titulo</label>
+		{{form.titulo}}
+		
+		<br>
+		
+		<label>Titulo</label>
+		{{form.titulo}}
+		
+		<br>
+		
+		<label>Autor</label>
+		{{form.autor}}
+		
+		<br>
+		
+		<label>Editora</label>
+		{{form.editora}}
+		
+		<br>
+		
+		<label>Paginas</label>
+		{{form.nro_paginas}}
+		
+		<br>
+		
+		<label>Preços</label>
+		{{form.precos}}
+		
+		<br>
+		
+		<button>ATUALIZAR</button>
+		
+		<br>
+	</form>
